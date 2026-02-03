@@ -1,0 +1,91 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri Dec 15 18:20:17 2023
+| Host         : 3115A0202 running 64-bit major release  (build 9200)
+| Command      : report_methodology -file uart_top_methodology_drc_routed.rpt -pb uart_top_methodology_drc_routed.pb -rpx uart_top_methodology_drc_routed.rpx
+| Design       : uart_top
+| Device       : xc7a35tcpg236-1
+| Speed File   : -1
+| Design State : Fully Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 10
++-----------+----------+--------------------------------------------------------+------------+
+| Rule      | Severity | Description                                            | Violations |
++-----------+----------+--------------------------------------------------------+------------+
+| TIMING-20 | Warning  | Non-clocked latch                                      | 8          |
+| XDCC-1    | Warning  | Scoped Clock constraint overwritten with the same name | 1          |
+| XDCC-7    | Warning  | Scoped Clock constraint overwritten on the same source | 1          |
++-----------+----------+--------------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-20#1 Warning
+Non-clocked latch  
+The latch rx/data[-1111111104] cannot be properly analyzed as its control pin rx/data[-1111111104]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#2 Warning
+Non-clocked latch  
+The latch rx/data[-1111111105] cannot be properly analyzed as its control pin rx/data[-1111111105]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#3 Warning
+Non-clocked latch  
+The latch rx/data[-1111111106] cannot be properly analyzed as its control pin rx/data[-1111111106]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#4 Warning
+Non-clocked latch  
+The latch rx/data[-1111111107] cannot be properly analyzed as its control pin rx/data[-1111111107]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#5 Warning
+Non-clocked latch  
+The latch rx/data[-1111111108] cannot be properly analyzed as its control pin rx/data[-1111111108]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#6 Warning
+Non-clocked latch  
+The latch rx/data[-1111111109] cannot be properly analyzed as its control pin rx/data[-1111111109]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#7 Warning
+Non-clocked latch  
+The latch rx/data[-1111111110] cannot be properly analyzed as its control pin rx/data[-1111111110]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#8 Warning
+Non-clocked latch  
+The latch rx/data[-1111111111] cannot be properly analyzed as its control pin rx/data[-1111111111]/G is not reached by a timing clock
+Related violations: <none>
+
+XDCC-1#1 Warning
+Scoped Clock constraint overwritten with the same name  
+A new clock constraint create_clock overrides a previous scoped clock constraint with the same name. It is not recommended to override a scoped (typically an IP) clock constraint and could result in unexpected behaviors.
+New: create_clock -period 10.000 -waveform {0.000 5.000} [get_ports clk_in] (Source: C:/Users/yyuanaw/Downloads/UART_temp.xpr/UART_temp/UART_temp.srcs/constrs_1/new/uart_top_xdc.xdc (Line: 40))
+Previous: create_clock -period 10.000 [get_ports clk_in] (Source: c:/Users/yyuanaw/UART_2020_temp/UART_2020_temp.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc (Line: 56))
+Related violations: <none>
+
+XDCC-7#1 Warning
+Scoped Clock constraint overwritten on the same source  
+A new clock constraint create_clock overrides a previous scoped clock constraint defined on the same source. It is not recommended to override a scoped (typically an IP) clock constraint and could result in unexpected behaviors.
+New: create_clock -period 10.000 -waveform {0.000 5.000} [get_ports clk_in] (Source: C:/Users/yyuanaw/Downloads/UART_temp.xpr/UART_temp/UART_temp.srcs/constrs_1/new/uart_top_xdc.xdc (Line: 40))
+Previous: create_clock -period 10.000 [get_ports clk_in] (Source: c:/Users/yyuanaw/UART_2020_temp/UART_2020_temp.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc (Line: 56))
+Related violations: <none>
+
+
