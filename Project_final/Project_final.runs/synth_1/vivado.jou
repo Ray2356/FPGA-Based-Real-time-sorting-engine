@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat Dec 16 11:12:04 2023
+# Process ID: 8496
+# Current directory: D:/Project_final/Project_final.runs/synth_1
+# Command line: vivado.exe -log uart_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source uart_top.tcl
+# Log file: D:/Project_final/Project_final.runs/synth_1/uart_top.vds
+# Journal file: D:/Project_final/Project_final.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source uart_top.tcl -notrace

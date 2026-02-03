@@ -1,0 +1,22 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../Project_final.gen/sources_1/ip/clk_wiz_0" \
+"../../../../Project_final.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" \
+"../../../../Project_final.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v" \
+"../../../../Project_final.srcs/sources_1/new/Data_comb.v" \
+"../../../../Project_final.srcs/sources_1/new/b2c.v" \
+"C:/Users/jwanggh/Downloads/UART_2020_temp.xpr/UART_2020_temp/UART_2020_temp.srcs/sources_1/imports/Downloads/UART_temp.xpr/UART_temp/UART_temp.srcs/sources_1/new/clk.v" \
+"../../../../Project_final.srcs/sources_1/new/comparator.v" \
+"C:/Users/jwanggh/Downloads/UART_2020_temp.xpr/UART_2020_temp/UART_2020_temp.srcs/sources_1/new/mirror.v" \
+"../../../../Project_final.srcs/sources_1/new/modulator.v" \
+"../../../../Project_final.srcs/sources_1/new/stack.v" \
+"../../../../Project_final.srcs/sources_1/new/top.v" \
+"../../../../Project_final.srcs/sources_1/new/toserial.v" \
+"C:/Users/jwanggh/Downloads/UART_2020_temp.xpr/UART_2020_temp/UART_2020_temp.srcs/sources_1/imports/Downloads/UART_temp.xpr/UART_temp/UART_temp.srcs/sources_1/new/uart_rx.v" \
+"C:/Users/jwanggh/Downloads/UART_2020_temp.xpr/UART_2020_temp/UART_2020_temp.srcs/sources_1/imports/Downloads/UART_temp.xpr/UART_temp/UART_temp.srcs/sources_1/new/uart_tx.v" \
+"C:/Users/jwanggh/Downloads/UART_2020_temp.xpr/UART_2020_temp/UART_2020_temp.srcs/sources_1/imports/Downloads/UART_temp.xpr/UART_temp/UART_temp.srcs/sources_1/new/uart_top.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

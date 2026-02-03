@@ -1,0 +1,196 @@
+***************************************************************************************
+*                      PROJECT ARCHIVE SUMMARY REPORT
+*
+*                      (archive_project_summary.txt)
+*
+*  PLEASE READ THIS REPORT TO GET THE DETAILED INFORMATION ABOUT THE PROJECT DATA THAT
+*  WAS ARCHIVED FOR THE CURRENT PROJECT
+*
+* The report is divided into following five sections:-
+*
+* Section (1) - PROJECT INFORMATION
+*  This section provides the details of the current project that was archived
+*
+* Section (2) - INCLUDED/EXCLUDED RUNS
+*  This section summarizes the list of design runs for which the results were included
+*  or excluded from the archive
+*
+* Section (3) - ARCHIVED SOURCES
+*  This section summarizes the list of files that were added to the archive
+*
+* Section (3.1) - INCLUDE FILES
+*  This section summarizes the list of 'include' files that were added to the archive
+*
+* Section (3.1.1) - INCLUDE_DIRS SETTINGS
+*  This section summarizes the 'verilog include directory' path settings, if any
+*
+* Section (3.2) - REMOTE SOURCES
+*  This section summarizes the list of referenced 'remote' files that were 'imported'
+*  into the archived project
+*
+* Section (3.3) - SOURCES SUMMARY
+*  This section summarizes the list of all the files present in the archive
+*
+* Section (3.4) - REMOTE IP DEFINITIONS
+*  This section summarizes the list of all the remote IP's present in the archive
+*
+* Section (4) - JOURNAL/LOG FILES
+*  This section summarizes the list of journal/log files that were added to the archive
+*
+***************************************************************************************
+
+Section (1) - PROJECT INFORMATION
+---------------------------------
+Name      = Project_final
+Directory = D:/Project_final
+
+WARNING: Please verify the compiled library directory path for the following property in the
+         current project. The path may point to an invalid location after opening this project.
+         This could happen if the project was unarchived in a location where this path is not
+         accessible. To resolve this issue, please set this property with the desired path
+         before launching simulation:-
+
+Property = compxlib.xsim_compiled_library_dir
+Path     = 
+
+Section (2) - INCLUDED RUNS
+---------------------------
+The run results were included for the following runs in the archived project:-
+
+<synth_1>
+<ram_synth_1>
+<clk_wiz_0_synth_1>
+<impl_1>
+
+Section (3) - ARCHIVED SOURCES
+------------------------------
+The following sub-sections describes the list of sources that were archived for the current project:-
+
+Section (3.1) - INCLUDE FILES
+-----------------------------
+List of referenced 'RTL Include' files that were 'imported' into the archived project:-
+
+None
+
+Section (3.1.1) - INCLUDE_DIRS SETTINGS
+---------------------------------------
+List of the "INCLUDE_DIRS" fileset property settings that may or may not be applicable in the archived
+project, since most the 'RTL Include' files referenced in the original project were 'imported' into the
+archived project.
+
+<sources_1> fileset RTL include directory paths (INCLUDE_DIRS):-
+None
+
+<sim_1> fileset RTL include directory paths (INCLUDE_DIRS):-
+None
+
+Section (3.2) - REMOTE SOURCES
+------------------------------
+List of referenced 'remote' design files that were 'imported' into the archived project:-
+
+<clk_wiz_0>
+None
+
+<ram>
+None
+
+<constrs_1>
+None
+
+<sim_1>
+None
+
+<sources_1>
+C:/Users/jwanggh/Downloads/UART_2020_temp.xpr/UART_2020_temp/UART_2020_temp.srcs/sources_1/imports/Downloads/UART_temp.xpr/UART_temp/UART_temp.srcs/sources_1/new/clk.v
+C:/Users/jwanggh/Downloads/UART_2020_temp.xpr/UART_2020_temp/UART_2020_temp.srcs/sources_1/new/mirror.v
+C:/Users/jwanggh/Downloads/UART_2020_temp.xpr/UART_2020_temp/UART_2020_temp.srcs/sources_1/imports/Downloads/UART_temp.xpr/UART_temp/UART_temp.srcs/sources_1/new/uart_rx.v
+C:/Users/jwanggh/Downloads/UART_2020_temp.xpr/UART_2020_temp/UART_2020_temp.srcs/sources_1/imports/Downloads/UART_temp.xpr/UART_temp/UART_temp.srcs/sources_1/new/uart_tx.v
+C:/Users/jwanggh/Downloads/UART_2020_temp.xpr/UART_2020_temp/UART_2020_temp.srcs/sources_1/imports/Downloads/UART_temp.xpr/UART_temp/UART_temp.srcs/sources_1/new/uart_top.v
+C:/Users/jwanggh/Downloads/project.xpr/project/archive_project_summary.txt
+C:/Users/jwanggh/Desktop/coe/BRAM.coe
+D:/coe/BRAM.coe
+c:/Users/jwanggh/Desktop/coe/TEST.coe
+
+<utils_1>
+None
+
+Section (3.3) - SOURCES SUMMARY
+-------------------------------
+List of all the source files present in the archived project:-
+
+<sources_1>
+./Project_final.srcs/sources_1/new/Data_comb.v
+./Project_final.srcs/sources_1/new/b2c.v
+./Project_final.srcs/sources_1/imports/jwanggh/Downloads/UART_2020_temp.xpr/UART_2020_temp/UART_2020_temp.srcs/sources_1/imports/Downloads/UART_temp.xpr/UART_temp/UART_temp.srcs/sources_1/new/clk.v
+./Project_final.srcs/sources_1/new/comparator.v
+./Project_final.srcs/sources_1/imports/jwanggh/Downloads/UART_2020_temp.xpr/UART_2020_temp/UART_2020_temp.srcs/sources_1/new/mirror.v
+./Project_final.srcs/sources_1/new/modulator.v
+./Project_final.srcs/sources_1/new/stack.v
+./Project_final.srcs/sources_1/new/top.v
+./Project_final.srcs/sources_1/new/toserial.v
+./Project_final.srcs/sources_1/imports/jwanggh/Downloads/UART_2020_temp.xpr/UART_2020_temp/UART_2020_temp.srcs/sources_1/imports/Downloads/UART_temp.xpr/UART_temp/UART_temp.srcs/sources_1/new/uart_rx.v
+./Project_final.srcs/sources_1/imports/jwanggh/Downloads/UART_2020_temp.xpr/UART_2020_temp/UART_2020_temp.srcs/sources_1/imports/Downloads/UART_temp.xpr/UART_temp/UART_temp.srcs/sources_1/new/uart_tx.v
+./Project_final.srcs/sources_1/imports/jwanggh/Downloads/UART_2020_temp.xpr/UART_2020_temp/UART_2020_temp.srcs/sources_1/imports/Downloads/UART_temp.xpr/UART_temp/UART_temp.srcs/sources_1/new/uart_top.v
+./Project_final.srcs/sources_1/imports/project/archive_project_summary.txt
+./Project_final.srcs/sources_1/imports/jwanggh/Downloads/project.xpr/project/archive_project_summary.txt
+./Project_final.srcs/sources_1/imports/jwanggh/Desktop/coe/BRAM.coe
+./Project_final.srcs/sources_1/imports/coe/BRAM.coe
+./Project_final.srcs/sources_1/imports/jwanggh/Desktop/coe/TEST.coe
+
+<constrs_1>
+./Project_final.srcs/constrs_1/new/uart_top_xdc.xdc
+
+<sim_1>
+./Project_final.srcs/sim_1/new/top_tb.v
+
+<utils_1>
+None
+
+<ram>
+None
+
+<clk_wiz_0>
+./Project_final.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci
+./Project_final.gen/sources_1/ip/clk_wiz_0/doc/clk_wiz_v6_0_changelog.txt
+./Project_final.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc
+./Project_final.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.veo
+./Project_final.gen/sources_1/ip/clk_wiz_0/mmcm_pll_drp_func_7s_mmcm.vh
+./Project_final.gen/sources_1/ip/clk_wiz_0/mmcm_pll_drp_func_7s_pll.vh
+./Project_final.gen/sources_1/ip/clk_wiz_0/mmcm_pll_drp_func_us_mmcm.vh
+./Project_final.gen/sources_1/ip/clk_wiz_0/mmcm_pll_drp_func_us_pll.vh
+./Project_final.gen/sources_1/ip/clk_wiz_0/mmcm_pll_drp_func_us_plus_pll.vh
+./Project_final.gen/sources_1/ip/clk_wiz_0/mmcm_pll_drp_func_us_plus_mmcm.vh
+./Project_final.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v
+./Project_final.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v
+./Project_final.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp
+./Project_final.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_stub.v
+./Project_final.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_stub.vhdl
+./Project_final.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_sim_netlist.v
+./Project_final.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_sim_netlist.vhdl
+./Project_final.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc
+./Project_final.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_ooc.xdc
+./Project_final.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.xml
+
+Section (3.4) - REMOTE IP DEFINITIONS
+-------------------------------------
+List of all the remote IP's present in the archived project:-
+
+<sources_1>
+None
+
+<ram>
+None
+
+<clk_wiz_0>
+None
+
+Section (4) - JOURNAL/LOG FILES
+-------------------------------
+List of Journal/Log files that were added to the archived project:-
+
+Source File = C:/Users/jwanggh/AppData/Roaming/Xilinx/Vivado/vivado.jou
+Archived Location = ./Project_final/vivado.jou
+
+Source File = C:/Users/jwanggh/AppData/Roaming/Xilinx/Vivado/vivado.log
+Archived Location = ./Project_final/vivado.log
+
